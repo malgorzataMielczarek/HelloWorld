@@ -6,8 +6,9 @@ namespace HelloWorld
     {
         public static void Main(string[] args)
         {
+            Person me = new Person("Małgorzata", "Mielczarek");
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Nazywam się Małgorzata Mielczarek.");
+            Console.WriteLine("Nazywam się " + me.Name + " " + me.Surname + ".");
         }
     }
 }
